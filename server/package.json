@@ -1,16 +1,17 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "mongoose": "^8.11.0",
     "nodemon": "^3.1.9"
   },
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {}, 
   "type": "module",
   "scripts": {
     "test": "nodemon index.js",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
